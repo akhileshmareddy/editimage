@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pictureediting.css">
+    <script src="./pictureediting.js"></script>
+</head>
+<body>
+    <div id="parent">
+
+         <div id="image">
+            <img id="parrot" src="../../Assset/images/parrot.jpg" alt="">
+         </div>
+        <div id="first">
+            <div >
+                <h1>Blur</h1>
+                <input id="blur" type="range" min="0" max="100" value="0" oninput="filterr()" >
+            </div>
+            <div >
+                <h1>Brightness</h1>
+                <input id="Brightness" type="range" min="0" max="100" value="100" oninput="filterr()" >
+            </div>
+            <div >
+                <h1>Contrast</h1>
+                <input id="Contrast" type="range"  min="0" max="100" value="100" oninput="filterr()" >
+            </div>
+            <div >
+                <h1>Greyscale</h1>
+                <input id="greyscale"type="range" min="0" max="100" value="tt0" oninput="filterr()">
+            </div>
+           <div >
+                <h1>Hue-rotate</h1>
+                <input id="Huerotate"type="range"  min="0" max="360" value="0" oninput="filterr()">
+            </div>
+            <div >
+                <h1>Invert</h1>
+                <input id="Invert"type="range" min="0" max="1" value="1" oninput="filterr()">
+            </div>
+            <div >
+                <h1>Opacity</h1>
+                <input id="Opcity"type="range" min="0" max="100" value="100" oninput="filterr()" >
+            </div>
+            <div >
+                <h1>Saturate</h1>
+                <input id="Saturate"type="range"  min="0" max="100" value="100" oninput="filterr()">
+            </div>
+            <div >
+                <h1>Sepia</h1>
+                <input id="Sepia"type="range" min="0" max="100" value="0" oninput="filterr()" >
+            </div>
+        </div>
+        <div id="second">
+            <div >
+                <h1>Rotate-z</h1>
+                <input id="Rotatez"type="range" >
+            </div>
+            <div >
+                <h1>Rotate-x</h1>
+                <input id="Rotatex"type="range" >
+            </div>
+            <div id="Rotatey">
+                <h1>Rotate-y</h1>
+                <input type="range" >
+            </div>
+            <div id="Scale">
+                <h1>scale</h1>
+                <input type="range" >
+            </div>
+            <div id="Scalex">
+                <h1>Scale-x</h1>
+                <input type="range" >
+            </div>
+
+            <div id="Scaley">
+                <h1>Scale-y</h1>
+                <input type="range" >
+            </div>
+            <div id="Skew">
+                <h1>Skew</h1>
+                <input type="range" >
+            </div>
+            <div id="Skewx">
+                <h1>Skew-x</h1>
+                <input type="range" >
+            </div>
+            <div id="Shewy">
+                <h1>Skew-y</h1>
+                <input type="range" >
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
